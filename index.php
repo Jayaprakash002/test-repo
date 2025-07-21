@@ -5,6 +5,7 @@
 // Start session at the very top
 session_start();
 //session start
+//this is test file
 include 'db.php'; // <-- MOVED HERE. This creates the $conn variable.
 date_default_timezone_set('Asia/Kolkata');
 require 'vendor/autoload.php';
