@@ -953,7 +953,7 @@ if (!isset($_SESSION['otp_verified'])) {
                 $_SESSION['otp_user'] = $user['username']; // CRITICAL: Store the USERNAME for the next step
                 $_SESSION['otp_requested'] = true;       // Flag to show the OTP form
 
-                // echo "<pre>DEMO OTP: $otp</pre>"; 
+                echo "<pre>DEMO OTP: $otp</pre>"; 
                 sendOTP($email_to_check, $otp);
                 // The script will now fall through to the logic below that displays the OTP form
 
